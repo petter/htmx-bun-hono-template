@@ -7,6 +7,7 @@ export function RootLayout({
     <html>
       <head>
         <title>My App</title>
+        <script src="https://unpkg.com/htmx.org@1.9.11"></script>
       </head>
       <body>{children}</body>
     </html>
